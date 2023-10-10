@@ -36,7 +36,7 @@ Clone this repository to your local environment:
 ```sh
 
 
- git clone https://github.com/matheuslara01/cache-springboot.git
+ git clone https://github.com/matheuslara01/cache-spring-boot.git
 
 ```
 

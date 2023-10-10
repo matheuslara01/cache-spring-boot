@@ -33,7 +33,6 @@ Clone this repository to your local environment:
 
  git clone https://github.com/matheuslara01/cache-springboot.git
 
-
 ```
 
  - Open the project in your IDE.
@@ -71,7 +70,6 @@ This project uses Docker and Docker Compose to configure a PostgreSQL container.
 
  mvn clean install
 
-
 ```
 
 Run the following Docker Compose command to start the containers:
@@ -80,7 +78,6 @@ Run the following Docker Compose command to start the containers:
 
 
  docker-compose up -d
-
 
 ```
 
@@ -107,7 +104,6 @@ You can use any HTTP client, such as cURL or Postman, to interact with your proj
 
 GET http://localhost:8080/user/{id}
 
-
 ```
 
  - Clear user cache:
@@ -116,7 +112,6 @@ GET http://localhost:8080/user/{id}
 
 
 POST http://localhost:8080/user/clearCache
-
 
 ```
 

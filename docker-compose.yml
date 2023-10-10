@@ -1,0 +1,26 @@
+services:
+  db:
+    image: 'postgres:latest'
+    container_name: postgresql_container
+    environment:
+      - 'POSTGRES_DB=testdb'
+      - 'POSTGRES_PASSWORD=root'
+      - 'POSTGRES_USER=root'
+    ports:
+      - '5432:5432'
+    restart: always
+
+  democache:
+    build: .
+    container_name: demo_cache
+    hostname: demo_cache
+    environment:
+      - 'SERVER_PORT=8080'
+      - 'DATABASE_URL=jdbc:postgresql://db:5432/testdb'
+      - 'DATABASE_USERNAME=root'
+      - 'DATABASE_PASSWORD=root'
+    depends_on:
+      - db
+    ports:
+      - '8080:8080'
+    restart: always

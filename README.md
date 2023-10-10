@@ -1,5 +1,10 @@
 # Spring Cache Demo
 
+![Java 17](https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png)
+![Spring](https://img.icons8.com/color/48/spring-logo.png)
+![Docker](https://img.icons8.com/color/48/docker.png)
+![Postgres](https://img.icons8.com/color/48/postgreesql.png)
+
 This Spring Boot project serves as a practical demonstration of the caching functionality provided by the Spring Framework. The main objective is to illustrate how caching can be configured and used in a Spring application, in addition to demonstrating the use of Docker and PostgreSQL.
 
 ## Table of Contents
